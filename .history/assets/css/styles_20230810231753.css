@@ -132,8 +132,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 4px solid;
+    border-color: var(--primary-color);
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
-
 .hero__watch-video--play {
     display: flex;
     justify-content: center;

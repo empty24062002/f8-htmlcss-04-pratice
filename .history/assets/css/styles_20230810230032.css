@@ -99,59 +99,7 @@ a {
 .hero {
     margin-top: 60px;
     display: flex;
-    align-items: center;
     column-gap: 76px;
-}
-
-.hero__heading {
-    font-family: "Public Sans", sans-serif;
-    font-size: 5rem;
-    font-weight: 800;
-    line-height: 1.2;
-    letter-spacing: 0em;
-}
-
-.hero__desc {
-    margin-top: 20px;
-    font-family: "Public Sans", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.hero__cta {
-    margin-top: 42px;
-    display: flex;
-    align-items: center;
-}
-
-.hero__watch-video--circle {
-    margin-left: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero__watch-video--play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: #fef6fb;
-    background-color: #83a17d;
-}
-
-.hero__watch-click {
-    /* margin-left: 15px;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.67;
-    letter-spacing: 0em;
-    text-align: center; */
 }
 
 .hero__thump {

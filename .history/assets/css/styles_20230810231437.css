@@ -142,7 +142,7 @@ a {
     height: 44px;
     border-radius: 50%;
     color: #fef6fb;
-    background-color: #83a17d;
+    background-color: #83a17d currentColor;
 }
 
 .hero__watch-click {
