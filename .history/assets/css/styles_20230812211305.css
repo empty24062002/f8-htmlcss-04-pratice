@@ -5,7 +5,7 @@
 :root {
     --primary-color: #143c3c;
     --secondary-color: #e2eddf;
-    --text-color: #152427;
+    --text-color: #575d5e;
 }
 
 html {
@@ -46,18 +46,6 @@ a {
 
 .btn:hover {
     opacity: 0.9;
-}
-
-.section-lable {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.62; /* 162.5% */
-}
-
-.section-heading {
-    font-size: 4.2rem;
-    font-weight: 600;
-    line-height: 1.23; /* 123.81% */
 }
 /* header */
 .header {
@@ -139,39 +127,34 @@ a {
     align-items: center;
 }
 
-.hero__watch-video {
-    margin-left: 15px;
+.hero__watch-video--circle {
+    margin-left: 36px;
     display: flex;
     align-items: center;
-}
-
-.hero__watch-video:hover .hero__watch-video--play {
-    background-color: var(--primary-color);
-    cursor: pointer;
-    transform: rotate(45deg);
+    justify-content: center;
 }
 
 .hero__watch-video--play {
-    margin: 0 10px 0 -22px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: #fef6fb;
     background-color: #83a17d;
-    transition: 0.25s;
 }
 
-.hero__watch-video--click {
-    color: #152427;
+.hero__watch-click {
+    margin-left: 15px;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 1.66; /* 166.667% */
+    line-height: 1.67;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .hero__thump {
-    position: relative;
     min-width: 646px;
     display: flex;
     column-gap: 20px;
@@ -186,45 +169,4 @@ a {
 
 .hero__images:nth-child(2) {
     margin-top: 77px;
-}
-
-.hero__background-filter {
-    position: absolute;
-    top: 182px;
-    right: 0;
-    transform: translateX(-120px);
-    width: 340px;
-    height: 340px;
-    background-color: #4dbb9a;
-    filter: blur(137px);
-    z-index: -1;
-}
-
-.hero__thump-icons--top {
-    position: absolute;
-    top: -28px;
-    left: -200px;
-}
-
-.hero__thump-icons--bottom {
-    position: absolute;
-    bottom: -90px;
-    right: 8px;
-}
-/* brand */
-.brand {
-    margin-top: 130px;
-}
-
-.hero__brand {
-    padding: 40px 61px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 9999px;
-}
-
-.hero__brand-thump {
-    align-self: center;
 }

@@ -5,7 +5,7 @@
 :root {
     --primary-color: #143c3c;
     --secondary-color: #e2eddf;
-    --text-color: #152427;
+    --text-color: #575d5e;
 }
 
 html {
@@ -46,18 +46,6 @@ a {
 
 .btn:hover {
     opacity: 0.9;
-}
-
-.section-lable {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.62; /* 162.5% */
-}
-
-.section-heading {
-    font-size: 4.2rem;
-    font-weight: 600;
-    line-height: 1.23; /* 123.81% */
 }
 /* header */
 .header {
@@ -202,29 +190,6 @@ a {
 
 .hero__thump-icons--top {
     position: absolute;
-    top: -28px;
-    left: -200px;
-}
-
-.hero__thump-icons--bottom {
-    position: absolute;
-    bottom: -90px;
-    right: 8px;
-}
-/* brand */
-.brand {
-    margin-top: 130px;
-}
-
-.hero__brand {
-    padding: 40px 61px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 9999px;
-}
-
-.hero__brand-thump {
-    align-self: center;
+    top: 28px;
+    left: 0;
 }
