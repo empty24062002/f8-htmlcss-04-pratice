@@ -624,62 +624,24 @@ a {
     padding: 57px 30px 76px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background-color: #e2eddf;
     border-radius: 33px;
 }
 
-.process-list__item:hover {
-    background-color: #e2eddf;
-}
-
 .process-list__lable {
-    position: relative;
     display: flex;
     align-items: center;
 }
 
-.process-list__number {
-    color: var(--text-color);
-    font-size: 7.2rem;
-    font-weight: 600;
-}
-
 .process-list__title {
     margin-left: 64px;
-    color: var(--text-color);
-    font-size: 2.2rem;
-    font-weight: 600;
-}
-
-.process-list__learn {
-    position: absolute;
-    bottom: -10px;
-    left: 156px;
 }
 
 .process-list__img {
     position: absolute;
     width: 450px;
     height: 444px;
-    top: -241px;
-    right: 36px;
+    top: 0;
+    right: 0;
     object-fit: cover;
-}
-
-.process-list__content {
-    width: 572px;
-    color: var(--text-color);
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.55; /* 155.556% */
-}
-
-.process-hr {
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(
-        180deg,
-        #83a17d 4.17%,
-        rgba(131, 161, 125, 0) 36.46%
-    );
 }

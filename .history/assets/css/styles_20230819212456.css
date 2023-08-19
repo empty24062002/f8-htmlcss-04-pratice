@@ -626,6 +626,8 @@ a {
     justify-content: space-between;
     align-items: center;
     border-radius: 33px;
+    border-bottom: 1px solid
+        inear-gradient(180deg, #83a17d 4.17%, rgba(131, 161, 125, 0) 36.46%);
 }
 
 .process-list__item:hover {
@@ -674,12 +676,13 @@ a {
     line-height: 1.55; /* 155.556% */
 }
 
-.process-hr {
-    width: 100%;
+/* .process-hr {
+    display: inline-block;
+    width: 1131px;
     height: 3px;
     background: linear-gradient(
         180deg,
         #83a17d 4.17%,
         rgba(131, 161, 125, 0) 36.46%
     );
-}
+} */

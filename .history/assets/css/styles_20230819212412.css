@@ -675,7 +675,8 @@ a {
 }
 
 .process-hr {
-    width: 100%;
+    display: inline-block;
+    width: 1131px;
     height: 3px;
     background: linear-gradient(
         180deg,

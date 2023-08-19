@@ -624,12 +624,7 @@ a {
     padding: 57px 30px 76px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border-radius: 33px;
-}
-
-.process-list__item:hover {
-    background-color: #e2eddf;
 }
 
 .process-list__lable {
@@ -664,22 +659,4 @@ a {
     top: -241px;
     right: 36px;
     object-fit: cover;
-}
-
-.process-list__content {
-    width: 572px;
-    color: var(--text-color);
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.55; /* 155.556% */
-}
-
-.process-hr {
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(
-        180deg,
-        #83a17d 4.17%,
-        rgba(131, 161, 125, 0) 36.46%
-    );
 }

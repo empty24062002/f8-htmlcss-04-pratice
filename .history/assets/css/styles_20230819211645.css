@@ -624,12 +624,7 @@ a {
     padding: 57px 30px 76px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border-radius: 33px;
-}
-
-.process-list__item:hover {
-    background-color: #e2eddf;
 }
 
 .process-list__lable {
@@ -666,16 +661,8 @@ a {
     object-fit: cover;
 }
 
-.process-list__content {
-    width: 572px;
-    color: var(--text-color);
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.55; /* 155.556% */
-}
-
 .process-hr {
-    width: 100%;
+    width: 1131px;
     height: 3px;
     background: linear-gradient(
         180deg,

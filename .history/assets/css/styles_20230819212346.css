@@ -629,7 +629,7 @@ a {
 }
 
 .process-list__item:hover {
-    background-color: #e2eddf;
+    background-color: ##e2eddf;
 }
 
 .process-list__lable {
@@ -675,7 +675,7 @@ a {
 }
 
 .process-hr {
-    width: 100%;
+    width: 1131px;
     height: 3px;
     background: linear-gradient(
         180deg,
